@@ -1,0 +1,19 @@
+/* styles.css */
+#direct-contact {
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+#direct-contact h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+#direct-contact form input, #direct-contact form select, #direct-contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
