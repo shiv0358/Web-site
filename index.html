@@ -5,72 +5,110 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Making the Agriculture Sector More Effective</title>
     <style>
+        /* Global styles */
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Arial', sans-serif;
             margin: 0;
             padding: 0;
             line-height: 1.6;
+            background-color: #f4f4f4;
         }
+
         header {
-            background: #4CAF50;
+            background: url('https://www.example.com/background-image.jpg') no-repeat center center/cover;
             color: white;
-            padding: 10px 20px;
             text-align: center;
+            padding: 50px;
+            font-size: 2em;
         }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
         nav {
             display: flex;
             justify-content: center;
             background: #333;
             color: white;
         }
+
         nav a {
             color: white;
-            padding: 10px 20px;
+            padding: 15px 30px;
             text-decoration: none;
+            font-size: 1.1em;
         }
+
         nav a:hover {
             background: #4CAF50;
         }
+
         section {
             padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
+
         footer {
             background: #333;
             color: white;
             text-align: center;
-            padding: 10px;
+            padding: 20px;
             position: fixed;
             bottom: 0;
             width: 100%;
         }
+
         .highlight {
             color: #4CAF50;
             font-weight: bold;
         }
-        /* styles.css */
-        #direct-contact {
-            padding: 20px;
-            background-color: #f8f8f8;
-            border-radius: 8px;
-        }
-        #direct-contact h2 {
-            font-size: 1.5em;
-            color: #333;
-        }
-        #direct-contact form input, #direct-contact form select, #direct-contact form textarea {
+
+        /* Direct Contact Form styles */
+        #direct-contact form input,
+        #direct-contact form select,
+        #direct-contact form textarea {
             width: 100%;
             padding: 10px;
             margin-bottom: 10px;
             border: 1px solid #ccc;
             border-radius: 4px;
         }
+
+        /* New Technology section */
+        #new-technology h3 {
+            color: #4CAF50;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+        }
+        
+        .technology-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        
+        .technology-list li {
+            background: #f8f8f8;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+        }
+
     </style>
 </head>
 
 <body>
     <header>
-        <h1>Making the Agriculture Sector More Effective</h1>
-        <p>Innovation & Design Thinking Project</p>
+        <h1>Revolutionizing Agriculture with Innovative Technologies</h1>
+        <p>Empowering Farmers with Modern Solutions for Sustainable Growth</p>
     </header>
 
     <nav>
@@ -78,99 +116,114 @@
         <a href="#objectives">Objectives</a>
         <a href="#modifications">Proposed Modifications</a>
         <a href="#conclusion">Conclusion</a>
-        <a href="#contact">Contact</a>
+        <a href="#new-technology">New Technologies</a>
+        <a href="#direct-contact">Contact</a>
     </nav>
 
     <main>
+        <!-- Survey Analysis Section -->
         <section id="survey">
-            <h2>Survey Analysis</h2>
-            <h3>Major Issues</h3>
+            <h2 class="section-title">Survey Analysis</h2>
+            <h3>Key Insights</h3>
             <ul>
-                <li>Lack of access to real-time agricultural data</li>
-                <li>Inefficient resource utilization (water, fertilizers)</li>
-                <li>Low awareness of modern farming techniques</li>
+                <li>Limited access to real-time agricultural data and forecasts</li>
+                <li>High water usage and inefficient resource management</li>
+                <li>Underutilization of modern farming techniques in rural areas</li>
             </ul>
-            <h3>Issues with Current Approaches</h3>
+            <h3>Challenges with Current Methods</h3>
             <ul>
-                <li>High cost of advanced technologies</li>
-                <li>Limited access to rural farmers</li>
-                <li>Difficulty in scaling solutions</li>
+                <li>High upfront cost of advanced technologies</li>
+                <li>Limited infrastructure for IoT in remote areas</li>
+                <li>Lack of training and awareness of modern tools</li>
             </ul>
         </section>
 
+        <!-- Objectives Section -->
         <section id="objectives">
-            <h2>Objectives</h2>
-            <h3>Phase One</h3>
-            <p>Developing a smart farming system using IoT and AI for real-time monitoring.</p>
+            <h2 class="section-title">Objectives</h2>
+            <h3>Phase One: Development and Testing</h3>
+            <p>Building a smart farming system integrated with IoT, AI, and blockchain for secure data exchange and resource optimization.</p>
             <ul>
-                <li>Data Collection: Gather soil and weather data using sensors</li>
-                <li>Model Development: Build predictive models for resource optimization</li>
-                <li>Simulation: Test the system in a virtual farm environment</li>
+                <li>Data Collection: Use sensors to gather data on soil health, water usage, and weather patterns.</li>
+                <li>Modeling: Create predictive models using AI to optimize fertilizer and water usage.</li>
+                <li>Testing: Run simulations to validate the system's effectiveness in real-world conditions.</li>
             </ul>
-            <h3>Phase Two</h3>
-            <p>Developing a functional prototype of the smart farming system.</p>
+            <h3>Phase Two: Implementation</h3>
+            <p>Implementing the system at a larger scale for real-world testing in various geographic locations.</p>
             <ul>
-                <li>Design and Fabrication: Build IoT-enabled sensors and actuators</li>
-                <li>Integration: Combine the hardware with AI-based decision-making software</li>
-                <li>Testing: Evaluate the system's performance in real-world conditions</li>
+                <li>Deployment: Install IoT devices and integrate with AI-based dashboards for farmers to access real-time data.</li>
+                <li>Training: Provide on-the-ground training for farmers on how to use the technology efficiently.</li>
+                <li>Scaling: Expand the system to cover multiple farming regions across the country.</li>
             </ul>
         </section>
 
+        <!-- Proposed Modifications Section -->
         <section id="modifications">
-            <h2>Proposed Modifications</h2>
+            <h2 class="section-title">Proposed Modifications</h2>
             <ul>
-                <li>Incorporate solar-powered IoT devices for energy efficiency</li>
-                <li>Simplify the user interface to accommodate non-technical users</li>
-                <li>Develop multilingual support to cater to diverse farming communities</li>
+                <li>Integrating weather forecasting with real-time data for better resource planning</li>
+                <li>Incorporating machine learning algorithms to predict crop yield and pest outbreaks</li>
+                <li>Developing easy-to-use mobile apps with multilingual support for farmers in diverse regions</li>
             </ul>
         </section>
 
+        <!-- Conclusion Section -->
         <section id="conclusion">
-            <h2>Conclusion</h2>
-            <p>
-                The proposed solution leverages technology to address key challenges in agriculture. 
-                Benefits include:
-            </p>
+            <h2 class="section-title">Conclusion</h2>
+            <p>Through the adoption of new technologies, we aim to empower farmers with tools to optimize their resources, increase productivity, and improve sustainability in farming practices.</p>
             <ul>
-                <li>Improved resource utilization</li>
-                <li>Enhanced productivity</li>
-                <li>Increased accessibility for small-scale farmers</li>
+                <li>More efficient resource management (water, fertilizers, and pesticides)</li>
+                <li>Increased crop yield through precise forecasting and pest control</li>
+                <li>Empowerment of farmers with real-time, actionable data and predictive analytics</li>
             </ul>
         </section>
 
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>Faculty Coordinator: Prof. Sanjay M Belgaonkar</p>
-            <p>Team Leader: Shivaling A.G (Roll No: 53)</p>
+        <!-- New Technologies in Farming -->
+        <section id="new-technology">
+            <h2 class="section-title">New Technologies in Farming</h2>
+            <p>Here are some revolutionary technologies transforming agriculture today:</p>
+
+            <div class="technology-list">
+                <h3>1. Precision Agriculture</h3>
+                <p>Advanced technologies like IoT sensors, GPS, and drones enable farmers to optimize crop yields and manage resources efficiently by monitoring and analyzing real-time data.</p>
+
+                <h3>2. Vertical Farming</h3>
+                <p>Vertical farming allows crops to be grown in stacked layers, often indoors, using less space and water while reducing the carbon footprint of transportation and storage.</p>
+
+                <h3>3. Drones and UAVs</h3>
+                <p>Drones provide farmers with aerial views of their crops, helping to monitor plant health, assess irrigation needs, and apply pesticides more efficiently.</p>
+
+                <h3>4. Artificial Intelligence and Machine Learning</h3>
+                <p>AI-driven software can predict crop diseases, optimize planting schedules, and automate the farm management process, reducing the need for manual labor and chemical inputs.</p>
+
+                <h3>5. Blockchain for Traceability</h3>
+                <p>Blockchain technology ensures transparent and secure transactions between farmers, distributors, and consumers, creating a more efficient and trustworthy food supply chain.</p>
+            </div>
         </section>
 
-        <section id="new-technology">
-            <h2>New Technologies in Farming</h2>
-            <p>
-                Embracing new technologies in farming can significantly boost crop yields, improve efficiency, and reduce environmental impact. Here are some of the latest innovations in the agricultural sector:
-            </p>
+        <!-- Direct Contact with Farmers -->
+        <section id="direct-contact">
+            <h2 class="section-title">Direct Customer-Farmer Contact</h2>
+            <p>By removing intermediaries, we can provide a direct connection between farmers and consumers, ensuring better prices and higher-quality products for both parties.</p>
 
-            <h3>1. Precision Agriculture</h3>
-            <p>
-                Precision agriculture uses advanced technologies such as GPS, IoT sensors, and drones to monitor and manage field variability in crops. By collecting data on soil health, weather conditions, and crop performance, farmers can make informed decisions that optimize resources and reduce waste.
-            </p>
+            <h3>Available Farmers and Crops</h3>
+            <ul>
+                <li><strong>Farmer:</strong> John Doe | <strong>Crop:</strong> Organic Tomatoes | <strong>Location:</strong> Springfield</li>
+                <li><strong>Farmer:</strong> Priya Patel | <strong>Crop:</strong> Wheat | <strong>Location:</strong> Bangalore</li>
+                <li><strong>Farmer:</strong> Ahmed Khan | <strong>Crop:</strong> Mangoes | <strong>Location:</strong> Mumbai</li>
+            </ul>
 
-            <h3>2. Vertical Farming</h3>
-            <p>
-                Vertical farming is an innovative way of growing crops in stacked layers, often inside controlled environments. This method uses less land, water, and resources, making it ideal for urban farming. It's a sustainable way to grow fresh produce year-round.
-            </p>
+            <h3>Contact a Farmer</h3>
+            <form action="contact_farmer.php" method="POST">
+                <label for="name">Your Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
-            <h3>3. Drones and UAVs</h3>
-            <p>
-                Drones are revolutionizing farm management by providing real-time aerial data that helps farmers monitor crop health, assess soil quality, and even apply fertilizers and pesticides more efficiently. UAVs (Unmanned Aerial Vehicles) help reduce manual labor and improve overall farm productivity.
-            </p>
+                <label for="email">Your Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
 
-            <h3>4. Smart Irrigation Systems</h3>
-            <p>
-                Smart irrigation systems use sensors and weather data to optimize water usage for crops. These systems ensure that plants receive the right amount of water at the right time, reducing water waste and improving crop growth while conserving water resources.
-            </p>
+                <label for="farmer">Select Farmer:</label><br>
+                <
 
-            <h3>5. Robotics in Agriculture</h3>
  
 
 
