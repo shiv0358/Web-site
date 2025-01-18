@@ -130,3 +130,35 @@
     </footer>
 </body>
 </html>
+<section id="direct-contact">
+    <h2>Direct Customer-Farmer Contact</h2>
+    <p>
+        Connecting customers directly with farmers eliminates middlemen, ensuring fair prices for both parties. Use the form below to reach out to farmers or browse the list of available crops.
+    </p>
+    <h3>Available Farmers and Crops</h3>
+    <ul>
+        <li><strong>Farmer:</strong> John Doe | <strong>Crop:</strong> Organic Tomatoes | <strong>Location:</strong> Springfield</li>
+        <li><strong>Farmer:</strong> Priya Patel | <strong>Crop:</strong> Wheat | <strong>Location:</strong> Bangalore</li>
+        <li><strong>Farmer:</strong> Ahmed Khan | <strong>Crop:</strong> Mangoes | <strong>Location:</strong> Mumbai</li>
+    </ul>
+    <h3>Contact a Farmer</h3>
+    <form action="contact_farmer.php" method="POST">
+        <label for="name">Your Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Your Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="farmer">Select Farmer:</label><br>
+        <select id="farmer" name="farmer" required>
+            <option value="john-doe">John Doe (Tomatoes)</option>
+            <option value="priya-patel">Priya Patel (Wheat)</option>
+            <option value="ahmed-khan">Ahmed Khan (Mangoes)</option>
+        </select><br><br>
+
+        <label for="message">Your Message:</label><br>
+        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+        <button type="submit">Send Message</button>
+    </form>
+</section>
